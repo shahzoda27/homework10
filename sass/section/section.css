@@ -1,0 +1,152 @@
+.section__1 {
+  margin: 100px 0px;
+  padding: 0px 60px;
+}
+.section__1 .section__h1 {
+  font-size: 85px;
+  /*max-width: 100%;*/
+}
+
+@media (max-width: 1200px) {
+  .section__1 {
+    margin: 70px 0px;
+    padding: 0px 50px;
+  }
+  .section__1 .section__h1 {
+    max-width: 100%;
+    font-size: 55px;
+  }
+}
+.img {
+  width: 100%;
+  height: 928px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.btn {
+  margin: 80px 0px;
+  padding: 30px;
+}
+.btn button {
+  max-width: 350px;
+  padding: 18px 35px;
+  border: 2px solid #4B321D;
+  background-color: #fff;
+  font-size: 22px;
+}
+
+.section__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 0px;
+  padding: 50px;
+  gap: 50px;
+}
+.section__2 .section__2-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section__2 .section__2-desc h1 {
+  font-size: 45px;
+  max-width: 651px;
+}
+.section__2 .section__2-desc .btn1 {
+  margin: 50px 0px;
+  padding: 30px;
+}
+.section__2 .section__2-desc .btn1 .btn1-btn {
+  max-width: 350px;
+  padding: 14px 28px;
+  border: 2px solid #4B321D;
+  background-color: #fff;
+  font-size: 23px;
+}
+
+/*@media (max-width:1000px)and (min-width:450px){
+    .section__2{
+        margin: 50px 0px;
+        padding: 30px;
+        gap: 30px;
+        margin-left: 400px;
+        .section__2-desc{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 32px;
+        }
+
+        }
+    }
+}*/
+.section__3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 0px;
+  padding: 30px;
+  gap: 100px;
+}
+.section__3 .section__3-desc {
+  max-width: 100%;
+  /*margin-left: 350px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section__3 .section__3-desc h1 {
+  font-size: 45px;
+  max-width: 559px;
+}
+.section__3 .section__3-desc .btn1 {
+  margin: 50px 0px;
+  padding: 30px;
+}
+.section__3 .section__3-desc .btn1 .btn1-btn {
+  max-width: 350px;
+  padding: 14px 28px;
+  border: 2px solid #4B321D;
+  background-color: #fff;
+  font-size: 23px;
+}
+
+@media (max-width: 1000px) and (min-width: 420px) {
+  .section__3 {
+    margin: 50px 0px;
+    padding: 30px;
+    gap: 100px;
+    margin-left: 200px;
+  }
+  .section__3 .section__3-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section__3 .section__3-desc h1 {
+    font-size: 32px;
+  }
+}
+.section__4 {
+  background-color: #4B321D;
+  width: 100%;
+  height: 928px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section__4 h1 {
+  font-size: 85px;
+  color: #fff;
+}/*# sourceMappingURL=section.css.map */

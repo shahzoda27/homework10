@@ -1,0 +1,45 @@
+%center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    @extend %center;
+    justify-content: space-between;
+    padding: 40px;
+    .header__main{
+        ul{
+
+            display: flex;
+            gap: 30px;
+            li{
+                a{
+                    color: #4B321D;
+                    font-size: 25px;
+                }
+            }
+        } 
+    }
+    span{
+        i{
+            display: none;
+        }
+    }
+}
+@media (max-width: 680px) {
+.header{
+    .header__main{
+        ul{
+            display: none;
+        }
+    }
+    span{
+        i{
+            margin-left: 650px;
+            font-size: 25px;
+            display: block;
+        }
+    }
+}
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 40px;
+}
+.header .header__main ul {
+  display: flex;
+  gap: 30px;
+}
+.header .header__main ul li a {
+  color: #4B321D;
+  font-size: 25px;
+}
+.header span i {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .header .header__main ul {
+    display: none;
+  }
+  .header span i {
+    margin-left: 650px;
+    font-size: 25px;
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */
